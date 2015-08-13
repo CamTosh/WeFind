@@ -10,7 +10,7 @@ body {
 iframe {
   width: 640px;
   height: 480px;
-}
+} 
 @media only screen and (min-width: 800px) {
   iframe {
     vertical-align: left;
