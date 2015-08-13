@@ -4,7 +4,7 @@
 
 *Here, all is done with no ethics ♥*
 
-[nude]: https://github.com/JulienDevs/NudeLocator
+Nude -> https://github.com/JulienDevs/NudeLocator
 
 Sites supportés avec le filtre 404
 -----------
