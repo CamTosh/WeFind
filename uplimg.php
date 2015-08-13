@@ -1,8 +1,12 @@
 <html>
 <meta charset="UTF-8">
+<head></head>
 <style type="text/css">
 @import url(http://fonts.googleapis.com/css?family=Sacramento|Montserrat:700);
 
+body {
+	text-align: center;
+}
 iframe {
   width: 640px;
   height: 480px;
@@ -20,7 +24,6 @@ hr {
   }
 
 }
-
 @media only screen and (max-width: 768px) {
   iframe {
   width: 85%;
@@ -36,6 +39,7 @@ window.onbeforeunload = function(){
   window.scrollTo(0,0);
 }
 </script>
+<body>
 <?php 
 
 $tableau = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z');
@@ -49,9 +53,11 @@ $tableau = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 'a', 'b', 'c', 'd', 'e', 'f', 'g'
  $twitter = 'https://twitter.com/search?q=';
             
     if ( file_get_contents($toast) != file_get_contents($roger) ) {
-        echo '<a href='.$twitter.''.$tweetgen.' class="link" target="_blank">'.$twitter.''.$rand.'</a>';
-        echo '<div><a href="'.$toast.'"class="link" target="_blank">'.$olol.'</a><br><iframe src="'.$toast.'"></iframe></div>';
+        echo '<a href='.$twitter.''.$tweetgen.' class="link" target="_blank">'.$twitter.''.$olol.'</a>';
+        echo '<div><a href="'.$toast.'"class="link" target="_blank">'.$olol.'</a><br><iframe src="'.$toast.'"></iframe></div><br><br>';
     }
 }
 
 ?>
+</body>
+</html>
