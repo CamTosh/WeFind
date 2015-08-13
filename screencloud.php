@@ -11,13 +11,6 @@ iframe {
   width: 640px;
   height: 480px;
 }
-h1 {
-  font-size: 50px;
-  font-family: Sacramento;
-}
-hr {
-  width: 60%;
-}
 @media only screen and (min-width: 800px) {
   iframe {
     vertical-align: left;
@@ -29,9 +22,6 @@ hr {
   width: 85%;
   height: 45%;  
 }
-h1 {
-  font-size: 35px;
-  }
 }
 </style>
 <script type="text/javascript">
